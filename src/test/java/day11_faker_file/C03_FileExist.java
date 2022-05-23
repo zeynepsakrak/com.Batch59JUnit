@@ -34,7 +34,7 @@ public class C03_FileExist {
         // herkesin bilgisayarinda ortak olan kisim ise
         String ortakKisim="\\Desktop\\text.txt";
         // mac icin   "/Desktop/text"
-        String masaustuDosyaYolu=farkliKisim+ortakKisim ;
-        Assert.assertTrue(Files.exists(Paths.get(masaustuDosyaYolu)));
+                //String masaustuDosyaYolu=farkliKisim+ortakKisim ;
+                // Assert.assertTrue(Files.exists(Paths.get(masaustuDosyaYolu)));
     }
 }
