@@ -54,7 +54,7 @@ public class C01_WriteExcel {
         workbook.write(fos);
 
         //10)Dosyayi kapatalim
-fis.close();
-fos.close();
+   fis.close();
+    fos.close();
     }
 }
